@@ -1,0 +1,5 @@
+"--- STARTUP FILE LOADED ---".postln;
+
+if (\SCNvim.asClass.notNil) {
+  Server.program = (Platform.resourceDir +/+ "scsynth.exe").quote;
+}
